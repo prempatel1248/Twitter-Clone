@@ -1,0 +1,75 @@
+
+.fa-user-circle {
+    font-size: 3rem;
+    color: rgb(127, 127, 127);
+    margin: 7px;
+}
+.fa-user-circle-repost {
+    font-size: 2rem;
+    color: rgb(127, 127, 127);
+    margin: 7px;
+}
+.fa-user-circle-profile {
+    font-size: 10rem;
+}
+.fa-user-circle-single-chat {
+    font-size: 4rem;
+}
+.fa-heart-o, .fa-heart {
+    font-size: 1.7rem;
+    color: black;
+}
+.fa-heart-o:hover, .fa-comment-o:hover, .fa-retweet:hover, .fa-send:hover {
+    color: #3b82f6;
+}
+.fa-heart {
+    color: red;
+}
+.fa-retweet {
+    font-size: 1.7rem;
+    font-weight: 200;
+    color: rgb(39, 39, 39);
+}
+.fa-retweet-red {
+    color: #3b82f6;
+}
+.fa-comment-o {
+    font-size: 1.6rem;
+}
+.fa-comment-blue {
+    color:  #3b82f6;
+}
+.fa-send {
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+.fa-moon-o, .fa-sun-o {
+    font-size: 1.7rem;
+}
+.fa-twitter {
+    font-size: 5rem;
+    color: #3b82f6;
+}
+.fa:hover {
+    cursor: pointer;
+}
+
+.light {
+    color: black;
+}
+.dark {
+    color: white;
+}
+
+.login-fa-twitter {
+    color: #10223f;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    font-size: 100vh;
+    z-index: 0;
+    filter: blur(20px);
+}
+.login-fa-twitter:hover {
+    cursor: auto;
+}
