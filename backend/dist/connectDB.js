@@ -14,10 +14,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.connectDB = connectDB;
 const mongoose_1 = __importDefault(require("mongoose"));
+require('dotenv').config();
+const uri = process.env.MONGODB_URI || '';
 function connectDB() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            yield mongoose_1.default.connect("mongodb+srv://prempatel1248:0BWJFj3tcNR9vSFV@cluster0.yj1tijw.mongodb.net/books_db?retryWrites=true&w=majority&appName=Cluster0");
+            console.log("uri", uri);
+            yield mongoose_1.default.connect(uri);
             console.log('MongoDB connected');
         }
         catch (error) {
